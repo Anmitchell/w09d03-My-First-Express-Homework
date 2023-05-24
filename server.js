@@ -62,7 +62,6 @@ app.get('/fibonacci/:number', (req, res) => {
     const userNum = parseInt(req.params.number)
     while (num3 < userNum) {
         num3 = num1 + num2
-        // respond here
         if (num3 === userNum) break;
         num1 = num2
         num2 = num3
